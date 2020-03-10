@@ -7,6 +7,8 @@ def FizzBuss(num):
         return "Buzz"
     elif num % 5 != 0 and num % 3 == 0:
         return "Fizz"
+    else:
+        return num
 
 def test_FizzBuzz():
-    assert FizzBuss(27) == "Fizz"
+    assert FizzBuss(19) == 19

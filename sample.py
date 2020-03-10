@@ -5,3 +5,5 @@ def FizzBuss(num):
         return "Buzz"
     elif num % 5 != 0 and num % 3 == 0:
         return "Fizz"
+    else:
+        return num
